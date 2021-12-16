@@ -74,12 +74,12 @@ class FirstSignIn extends StatelessWidget {
                 ),
                 const SizedBox(height: 6,),
                 Container(
-                  alignment: Alignment(1, 0.5),
+                  alignment: const Alignment(1, 0.5),
                   child: Text(
                     'Forgot My Password',
                     textAlign: TextAlign.right,
                     style: GoogleFonts.poppins(
-                      color: Color(0xff6F7075),
+                      color: const Color(0xff6F7075),
                     ),
                   ),
                 ),
@@ -89,11 +89,11 @@ class FirstSignIn extends StatelessWidget {
                 TextButton(
                   onPressed: (){},
                   child: Container(
-                    padding: EdgeInsets.only(top: 14, bottom: 14),
+                    padding: const EdgeInsets.only(top: 14, bottom: 14),
                     width: 595,
                     height: 55,
                     decoration: BoxDecoration(
-                      color: Color(0xffFCAC15),
+                      color: const Color(0xffFCAC15),
                       borderRadius: BorderRadius.circular(17)
                     ),
                     child: Text(

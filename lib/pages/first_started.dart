@@ -40,7 +40,7 @@ class FirstStarted extends StatelessWidget {
                     ),
                 ),
               ),
-              SizedBox(height: 30,),
+              const SizedBox(height: 30,),
               Image.asset('assets/btn.png')
             ]
           )

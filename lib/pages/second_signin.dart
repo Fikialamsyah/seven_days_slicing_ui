@@ -31,7 +31,7 @@ class SecondSignIn extends StatelessWidget {
                 const SizedBox(height: 6,),
                 TextFormField(
                   style: GoogleFonts.openSans(
-                    color: Color(0xff17171A)
+                    color: const Color(0xff17171A)
                   ),
                   decoration: InputDecoration(
                     hintText: 'Email',
@@ -84,7 +84,7 @@ class SecondSignIn extends StatelessWidget {
                       width: double.infinity,
                       height: 55,
                       decoration:BoxDecoration(
-                        color: Color(0xff5468FF),
+                        color: const Color(0xff5468FF),
                         borderRadius: BorderRadius.circular(60)
                       ),
                       child: Text(
@@ -107,14 +107,15 @@ class SecondSignIn extends StatelessWidget {
                       width: double.infinity,
                       height: 55,
                       decoration:BoxDecoration(
-                        border: Border.all(color: Color(0xffD3D3D3)),
+                        color: Colors.white,
+                        border: Border.all(color: const Color(0xffD3D3D3)),
                         borderRadius: BorderRadius.circular(60)
                       ),
                       child: Text(
                         'Create New Account',
                         textAlign: TextAlign.center,
                         style: GoogleFonts.openSans(
-                          color: Color(0xffCFCFCF),
+                          color: const Color(0xffCFCFCF),
                           fontSize: 18
                         ),
                       ),

@@ -21,21 +21,21 @@ class SecondStarted extends StatelessWidget {
                     fontWeight: FontWeight.bold
                   )
                 ),
-                SizedBox(height: 16),
+                const SizedBox(height: 16),
                 Text(
                   'Exercise together with our best\ncommunity fit in the world',
                   style: GoogleFonts.poppins(
                     fontSize: 16,
                   )
                 ),
-                SizedBox(height: 40,),
+                const SizedBox(height: 40,),
                 Center(child: Image.asset('assets/gallery.png')),
-                SizedBox(height: 40,),
+                const SizedBox(height: 40,),
                 TextButton(
                   onPressed: (){}, 
                   child: Container(
-                    padding: EdgeInsets.only(left: 85, right: 85, top: 16, bottom: 16),
-                    decoration: BoxDecoration(
+                    padding: const EdgeInsets.only(left: 85, right: 85, top: 16, bottom: 16),
+                    decoration: const BoxDecoration(
                       color: Color(0xffAFEA0D),
                     ),
                     child: Text(
@@ -47,7 +47,7 @@ class SecondStarted extends StatelessWidget {
                     ),
                   )
                 ),
-                SizedBox(height: 10,),
+                const SizedBox(height: 10,),
                 Center(
                   child: Text(
                     'Terms & Condition',
