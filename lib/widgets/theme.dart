@@ -77,5 +77,47 @@ TextStyle messageTextStyle = GoogleFonts.poppins(
   color: const Color(0xff808EAB)
 );
 
+// pricing screen
+TextStyle MainTextStylePricing = GoogleFonts.poppins(
+  fontWeight: FontWeight.w600,
+  fontSize: 22,
+  color: const Color(0xff191919)
+);
 
+TextStyle HeadTextStylePricing = GoogleFonts.poppins(
+  fontWeight: FontWeight.w500,
+  fontSize: 16,
+  color: const Color(0xff191919)
+);
 
+TextStyle DescTextStylePricing = GoogleFonts.poppins(
+  color: Color(0xffA3A8B8),
+);
+
+TextStyle SubDescTextStylePricing = GoogleFonts.poppins(
+  fontWeight: FontWeight.w500,
+  color: Color(0xff6050E7)
+);
+
+TextStyle upgradeTextStyle = GoogleFonts.poppins(
+  color : Colors.white,
+  fontSize : 18,
+  fontWeight : FontWeight.w600
+);
+
+// second pricing
+TextStyle TitleTextStylePricing = GoogleFonts.poppins(
+  color: Colors.white,
+  fontSize: 22,
+  fontWeight: FontWeight.w600
+);
+
+TextStyle SubTextStylePricing = GoogleFonts.poppins(
+  color: Color(0xff7F7FAD),
+  fontSize : 16,
+);
+
+TextStyle DescTextStylePricing2 = GoogleFonts.poppins(
+  color: Colors.white,
+  fontSize: 16,
+);
